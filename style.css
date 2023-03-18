@@ -136,7 +136,7 @@ nav div a:hover{
 .header__lang__switch a:first-child{
     position: relative;
 }
-.header__lang__switch a::after{
+.header__lang__switch a:first-child::after{
     content: '|';
     position: absolute;
     top: -2px;
@@ -969,7 +969,7 @@ footer{
     .header__lang__switch a:first-child{
         position: relative;
     }
-    .header__lang__switch a::after{
+    .header__lang__switch a:first-child::after{
         content: '|';
         position: absolute;
         top: -1px;
